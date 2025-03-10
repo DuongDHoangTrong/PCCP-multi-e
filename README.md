@@ -10,8 +10,8 @@ I=...-L=...-Np=...
 
 where:
 - `I` represents the intensity of the laser field.
-- `L` represents the wavelength or another relevant laser parameter.
-- `Np` represents the number of particles or a similar quantity.
+- `L` represents the wavelength of laser.
+- `Np` represents the number of optical cycles.
 
 The data is organized into two folders:
 - **HOMO/**: Contains data for the highest occupied molecular orbital (HOMO).
