@@ -1,8 +1,8 @@
 # Data Description
 
 ## Overview
-This dataset contains simulation results for electron dynamics under laser interaction from `Effects of laser parameters on orbital competition in
-high-order harmonic generation from hydrogen cyanide molecule`. Each file is named in the format:
+This dataset contains simulation results for electron dynamics under laser interaction from ***Effects of laser parameters on orbital competition in
+high-order harmonic generation from hydrogen cyanide molecule***. Each file is named in the format:
 
 ```
 I=...-L=...-Np=...
@@ -27,7 +27,7 @@ Each `.fort` file consists of tabular data with the following columns:
 2. **laser (a.u.)** - The electric field of the laser in atomic units.
 3. **acc (a.u.)** - The acceleration of the electron.
 4. **ion prob** - The ionization probability, calculated according to Eq. (10) in the associated text.
-5. **survival** - The survival probability, defined as \(<\psi | \psi_0 >\).
+5. **survival** - The survival probability, defined as $$\langle \psi | \psi_0 \rangle$$
 
 ### `.npy` Files
 Each `.npy` file contains time-profiles. The structure of these files is:
