@@ -1,8 +1,7 @@
 # Data Description
 
 ## Overview
-This dataset contains simulation results for electron dynamics under laser interaction from ***Effects of laser parameters on orbital competition in
-high-order harmonic generation from hydrogen cyanide molecule***. Each file is named in the format:
+This dataset contains simulation results of High-Harmonic Generation (HHG) from HCN molecule interacting with laser pulses with different laser parameters, used for the article ***Effects of laser parameters on orbital competition in high-order harmonic generation from hydrogen cyanide molecule***. Each file is named in the format:
 
 ```
 I=...-L=...-Np=...
@@ -14,8 +13,8 @@ where:
 - `Np` represents the number of optical cycles.
 
 The data is organized into two folders:
-- **HOMO/**: Contains data for the highest occupied molecular orbital (HOMO).
-- **HOMO-1/**: Contains data for the second highest occupied molecular orbital (HOMO-1).
+- **HOMO/**: Contains HHG data for the highest occupied molecular orbital (HOMO).
+- **HOMO-1/**: Contains HHG data for the second highest occupied molecular orbital (HOMO-1).
 
 Each folder contains `.fort` files with tabular data and `.npy` files representing time-profiles.
 
@@ -31,6 +30,6 @@ Each `.fort` file consists of tabular data with the following columns:
 
 ### `.npy` Files
 Each `.npy` file contains time-profiles. The structure of these files is:
-- The **first column** contains the High-Harmonic Generation (HHG) order.
+- The **first column** contains the HHG order.
 - The **first row** contains the for emission time (in optical cycles).
 - The values inside the matrix represent the intensity of the corresponding HHG order at the given emission time.
